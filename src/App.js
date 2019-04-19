@@ -11,6 +11,8 @@ import Default from './components/Default';
 import Modal from './components/Modal';
 import About from './components/About';
 import Contact from './components/Contact';
+import Login from './components/Auth/Login';
+import './components/Config.js';
 
 class App extends Component {
   render() {
@@ -21,6 +23,7 @@ class App extends Component {
           <Route exact path="/" component={ProductList} />
           <Route exact path="/about" component={About} />
           <Route exact path="/contact" component={Contact} />
+          <Route exact path="/login" component={Login} />
           <Route path="/details" component={Details} />
           <Route path="/cart" component={Cart} />
           <Route component={Default} />
