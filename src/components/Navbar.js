@@ -33,6 +33,11 @@ export default class extends Component {
               Contact Us
             </Link>
           </li>
+          <li className="nav-item ml-5">
+            <Link to="/login" className="nav-link">
+              Login
+            </Link>
+          </li>
         </ul>
         <Link to='/cart' className="ml-auto">
           <ButtonContainer>
